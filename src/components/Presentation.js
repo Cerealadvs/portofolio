@@ -2,7 +2,7 @@ import React from 'react'
 
 import deved from '../images/dev-ed-wave.png'
 
-const Presentaion = () => {
+const Presentation = () => {
   return (
     <section className='min-h-screen'>
       <div className='text-center p-10 py-10'>
@@ -20,4 +20,4 @@ const Presentaion = () => {
   )
 }
 
-export default Presentaion
+export default Presentation
