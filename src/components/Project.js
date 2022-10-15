@@ -7,11 +7,13 @@ import web4 from '../images/web4.png'
 import web5 from '../images/web5.png'
 import web6 from '../images/web6.png'
 
-const Portfolio = () => {
+const Project = () => {
   return (
     <section>
       <div>
-        <h3 className='text-3xl py-1'>Portofolio</h3>
+        <h3 className='text-3xl pt-16 font-burtons' id='Project'>
+          Projects
+        </h3>
         <p className='text-md leading-8 text-gray-800'>
           Since the beginning of my journey as a freelance designer ans develoer, I have done remote work for{' '}
           <span className='text-teal-500'> agencies </span>consulted for{' '}
@@ -88,4 +90,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default Project

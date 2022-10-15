@@ -1,8 +1,8 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 
-import Portfolio from '../components/Portfolio'
 import Presentaion from '../components/Presentaion'
+import Project from '../components/Project'
 import Services from '../components/Services'
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
       <Navbar />
       <Presentaion />
       <Services />
-      <Portfolio />
+      <Project />
     </main>
   )
 }
