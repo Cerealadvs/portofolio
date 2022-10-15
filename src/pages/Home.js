@@ -9,6 +9,7 @@ const Home = () => {
   return (
     <main className=' bg-slate-300 px-10 md:px-20 lg:px-40 dark:bg-gray-800'>
       <Navbar />
+
       <Presentaion />
       <Services />
       <Project />
