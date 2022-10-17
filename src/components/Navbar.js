@@ -1,5 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
+// import knife from '../images/swiss_knife'
+// TODO:modif image couteau
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false)
@@ -7,19 +9,26 @@ const Navbar = () => {
   return (
     <div className='flex items-center justify-between py-8 mb-12 top-0 md:sticky bg-slate-300 dark:bg-gray-800'>
       <h1 className='text-xl font-burtons text-slate-800 dark:text-slate-400'>developedbycd</h1>
+      {/* <a href='#home'>
+        <img
+          src='https://cdn.dribbble.com/users/448601/screenshots/1720767/swissarmyknife_dribbble.gif'
+          alt='swiss army knife'
+        />
+      </a> */}
+      {/* <img src={knife} alt='knife' /> */}
 
       <nav>
         <section class='md:hidden'>
           <div class='space-y-2' onClick={() => setIsNavOpen((prev) => !prev)}>
-            <span class='block w-8 h-0.5 bg-slate-800'></span>
-            <span class='block w-8 h-0.5 bg-slate-800'></span>
-            <span class='block w-8 h-0.5 bg-slate-800'></span>
+            <span class='block w-8 h-0.5 bg-slate-800 dark:bg-slate-400'></span>
+            <span class='block w-8 h-0.5 bg-slate-800 dark:bg-slate-400'></span>
+            <span class='block w-8 h-0.5 bg-slate-800 dark:bg-slate-400'></span>
           </div>
 
           <div className={isNavOpen ? 'showMenuNav' : 'hideMenuNav'}>
             <div className='absolute top-0 right-0 px-8 py-8' onClick={() => setIsNavOpen(false)}>
               <svg
-                className='h-8 w-8 text-gray-600'
+                className='h-8 w-8 text-slate-800'
                 viewBox='0 0 24 24'
                 fill='none'
                 stroke='currentColor'
@@ -32,17 +41,17 @@ const Navbar = () => {
             </div>
 
             <ul className='flex flex-col items-center justify-between min-h-[250px]'>
-              <li className='font-burtons text-slate-800 dark:text-slate-400 hover:underline decoration-4 decoration-sky-500'>
-                <a href='/about'>About me</a>
+              <li className='font-burtons text-slate-800 hover:underline decoration-4 decoration-sky-500'>
+                <a href='/about'>À propos</a>
               </li>
-              <li className='font-burtons text-slate-800 dark:text-slate-400 hover:underline decoration-4 decoration-green-500'>
-                <a href='#Project'>Projects</a>
+              <li className='font-burtons text-slate-800 hover:underline decoration-4 decoration-green-500'>
+                <a href='#Project'> Mes projets</a>
               </li>
-              <li className='font-burtons text-slate-800 dark:text-slate-400 hover:underline decoration-4 decoration-yellow-500'>
+              <li className='font-burtons text-slate-800 hover:underline decoration-4 decoration-yellow-500'>
                 <a href='https://github.com/Cerealadvs' className='flex '>
                   GitHub
                   <svg
-                    class='h-5 w-5 text-slate-800  dark:text-slate-400'
+                    class='h-5 w-5 text-slate-800'
                     width='24'
                     height='24'
                     viewBox='0 0 24 24'
@@ -65,13 +74,13 @@ const Navbar = () => {
         <ul className='hidden space-x-8 md:flex'>
           {/* TODO: créer un a vers une page de présentation plus détaillée. */}
           <li className='font-burtons text-slate-800 dark:text-slate-400 hover:underline decoration-4 decoration-sky-500'>
-            About me
+            À propos
           </li>
           <li>
             <a
               href='#Project'
               className='font-burtons text-slate-800 dark:text-slate-400 hover:underline decoration-4 decoration-green-500'>
-              Projects
+              Mes projets
             </a>
           </li>
           <li>

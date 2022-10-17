@@ -1,33 +1,41 @@
 import React from 'react'
 
-import web1 from '../images/web1.png'
-import web2 from '../images/web2.png'
-import web3 from '../images/web3.png'
-import web4 from '../images/web4.png'
-import web5 from '../images/web5.png'
-import web6 from '../images/web6.png'
+import booki from '../images/booki.jpg'
+import ohmyfood from '../images/ohmyfood.jpg'
+import lapanthere from '../images/lapanthere.jpg'
+import kanap from '../images/kanap.jpg'
+import hottakes from '../images/hottakes.jpg'
+import groupomania from '../images/groupomania.jpg'
 
 const Project = () => {
   return (
     <section>
       <div>
-        <h3 className='text-3xl pt-16 font-burtons' id='Project'>
-          Projects
+        <h3 className='text-3xl pt-4 md:pt-24 font-burtons text-slate-800 dark:text-slate-400' id='Project'>
+          Mes Projets
         </h3>
-        <p className='text-md leading-8 text-gray-800'>
-          Since the beginning of my journey as a freelance designer ans develoer, I have done remote work for{' '}
-          <span className='text-teal-500'> agencies </span>consulted for{' '}
-          <span className='text-teal-500'> strategies </span> and collabored with talent people to creating
-          digital landing for businedss and coonsumer use.
+        <p className='text-md leading-8 text-slate-800 dark:text-slate-400'>
+          Voici les différents projets que j'ai réalisé dans le cadre de ma formation chez{' '}
+          <span className='text-teal-500'>
+            {' '}
+            <a href='https://openclassrooms.com/fr/'>OpenClassrooms</a>{' '}
+          </span>{' '}
+          vous pouvez consulter d'autres projets sur{' '}
+          <span className='text-teal-500'>
+            {' '}
+            <a href='https://github.com/Cerealadvs'> Github</a>{' '}
+          </span>{' '}
+          et voir sur quoi je travaille actuellement.
         </p>
-        <p className='text-md py-2 leading-8 text-gray-800'>
-          I offer from a wide range of services, inclluding programming and teatching.
+        <p className='text-md py-2 leading-8 text-slate-800 dark:text-slate-400'>
+          Que ce soit du front ou du back, je m'interesse principalement au technologies du web actuellement.
         </p>
       </div>
+
       <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
         <div className='basis-1/3 flex-1'>
           <img
-            src={web1}
+            src={booki}
             className='rounded-lg object-cover'
             width={'100%'}
             height={'100%'}
@@ -37,7 +45,7 @@ const Project = () => {
         </div>
         <div className='basis-1/3 flex-1'>
           <img
-            src={web2}
+            src={ohmyfood}
             className='rounded-lg object-cover'
             width={'100%'}
             height={'100%'}
@@ -47,7 +55,7 @@ const Project = () => {
         </div>
         <div className='basis-1/3 flex-1'>
           <img
-            src={web3}
+            src={lapanthere}
             className='rounded-lg object-cover'
             width={'100%'}
             height={'100%'}
@@ -57,7 +65,7 @@ const Project = () => {
         </div>
         <div className='basis-1/3 flex-1'>
           <img
-            src={web4}
+            src={kanap}
             className='rounded-lg object-cover'
             width={'100%'}
             height={'100%'}
@@ -67,7 +75,7 @@ const Project = () => {
         </div>
         <div className='basis-1/3 flex-1'>
           <img
-            src={web5}
+            src={hottakes}
             className='rounded-lg object-cover'
             width={'100%'}
             height={'100%'}
@@ -77,7 +85,7 @@ const Project = () => {
         </div>
         <div className='basis-1/3 flex-1'>
           <img
-            src={web6}
+            src={groupomania}
             className='rounded-lg object-cover'
             width={'100%'}
             height={'100%'}
