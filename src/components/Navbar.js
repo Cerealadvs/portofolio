@@ -18,11 +18,11 @@ const Navbar = () => {
       {/* <img src={knife} alt='knife' /> */}
 
       <nav>
-        <section class='md:hidden'>
-          <div class='space-y-2' onClick={() => setIsNavOpen((prev) => !prev)}>
-            <span class='block w-8 h-0.5 bg-slate-800 dark:bg-slate-400'></span>
-            <span class='block w-8 h-0.5 bg-slate-800 dark:bg-slate-400'></span>
-            <span class='block w-8 h-0.5 bg-slate-800 dark:bg-slate-400'></span>
+        <section className='md:hidden'>
+          <div className='space-y-2' onClick={() => setIsNavOpen((prev) => !prev)}>
+            <span className='block w-8 h-1 bg-slate-800 dark:bg-slate-400'></span>
+            <span className='block w-8 h-1 bg-slate-800 dark:bg-slate-400'></span>
+            <span className='block w-8 h-1 bg-slate-800 dark:bg-slate-400'></span>
           </div>
 
           <div className={isNavOpen ? 'showMenuNav' : 'hideMenuNav'}>
@@ -40,6 +40,7 @@ const Navbar = () => {
               </svg>
             </div>
 
+            {/* menu téléphone */}
             <ul className='flex flex-col items-center justify-between min-h-[250px]'>
               <li className='font-burtons text-slate-800 hover:underline decoration-4 decoration-sky-500'>
                 <a href='/about'>À propos</a>
@@ -51,15 +52,15 @@ const Navbar = () => {
                 <a href='https://github.com/Cerealadvs' className='flex '>
                   GitHub
                   <svg
-                    class='h-5 w-5 text-slate-800'
+                    className='h-5 w-5 text-slate-800'
                     width='24'
                     height='24'
                     viewBox='0 0 24 24'
-                    stroke-width='2'
+                    strokeWidth='2'
                     stroke='currentColor'
                     fill='none'
-                    stroke-linecap='round'
-                    stroke-linejoin='round'>
+                    strokeLinecap='round'
+                    strokeLinejoin='round'>
                     {' '}
                     <path stroke='none' d='M0 0h24v24H0z' />{' '}
                     <path d='M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2' />{' '}
@@ -71,7 +72,8 @@ const Navbar = () => {
           </div>
         </section>
 
-        <ul className='hidden space-x-8 md:flex'>
+        {/* menu desktop */}
+        <ul className='hidden items-center space-x-8 md:flex'>
           {/* TODO: créer un a vers une page de présentation plus détaillée. */}
           <li className='font-burtons text-slate-800 dark:text-slate-400 hover:underline decoration-4 decoration-sky-500'>
             À propos
@@ -89,15 +91,15 @@ const Navbar = () => {
               className='hidden md:flex font-burtons text-slate-800 dark:text-slate-400 justify-center  hover:underline decoration-4 decoration-yellow-500'>
               GitHub
               <svg
-                class='h-5 w-5 text-black dark:text-slate-400'
+                className='h-5 w-5 text-black dark:text-slate-400'
                 width='24'
                 height='24'
                 viewBox='0 0 24 24'
-                stroke-width='2'
+                strokeWidth='2'
                 stroke='currentColor'
                 fill='none'
-                stroke-linecap='round'
-                stroke-linejoin='round'>
+                strokeLinecap='round'
+                strokeLinejoin='round'>
                 {' '}
                 <path stroke='none' d='M0 0h24v24H0z' />{' '}
                 <path d='M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2' />{' '}

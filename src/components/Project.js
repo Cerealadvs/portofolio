@@ -7,6 +7,11 @@ import kanap from '../images/kanap.jpg'
 import hottakes from '../images/hottakes.jpg'
 import groupomania from '../images/groupomania.jpg'
 
+// import css from '../images/css.svg'
+
+// import node from '../images/node.svg'
+// ;<img src={node} alt='node' />
+
 const Project = () => {
   return (
     <section>
@@ -15,20 +20,21 @@ const Project = () => {
           Mes Projets
         </h3>
         <p className='text-md leading-8 text-slate-800 dark:text-slate-400'>
-          Voici les différents projets que j'ai réalisé dans le cadre de ma formation chez{' '}
+          Voici les différents projets que j'ai réalisés dans le cadre de ma formation chez{' '}
           <span className='text-teal-500'>
             {' '}
             <a href='https://openclassrooms.com/fr/'>OpenClassrooms</a>{' '}
           </span>{' '}
-          vous pouvez consulter d'autres projets sur{' '}
+          . Vous pouvez consulter d'autres projets sur{' '}
           <span className='text-teal-500'>
             {' '}
             <a href='https://github.com/Cerealadvs'> Github</a>{' '}
           </span>{' '}
-          et voir sur quoi je travaille actuellement.
+          et voir ceux sur lesquels je travaille en ce moment.
         </p>
         <p className='text-md py-2 leading-8 text-slate-800 dark:text-slate-400'>
-          Que ce soit du front ou du back, je m'interesse principalement au technologies du web actuellement.
+          Que ce soit du front ou du back, je travaille principalement avec les technologies du web
+          actuellement.
         </p>
       </div>
 
@@ -43,6 +49,7 @@ const Project = () => {
             alt='project'
           />
         </div>
+
         <div className='basis-1/3 flex-1'>
           <img
             src={ohmyfood}
@@ -53,6 +60,7 @@ const Project = () => {
             alt='project'
           />
         </div>
+
         <div className='basis-1/3 flex-1'>
           <img
             src={lapanthere}
@@ -63,6 +71,7 @@ const Project = () => {
             alt='project'
           />
         </div>
+
         <div className='basis-1/3 flex-1'>
           <img
             src={kanap}
@@ -73,6 +82,7 @@ const Project = () => {
             alt='project'
           />
         </div>
+
         <div className='basis-1/3 flex-1'>
           <img
             src={hottakes}
@@ -83,6 +93,7 @@ const Project = () => {
             alt='project'
           />
         </div>
+
         <div className='basis-1/3 flex-1'>
           <img
             src={groupomania}
