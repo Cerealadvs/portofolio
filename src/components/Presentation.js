@@ -6,7 +6,7 @@ const Presentation = () => {
   return (
     <section className='min-h-screen'>
       <div className='text-center p-10 py-10'>
-        <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Cyril Delteil</h2>
+        <h2 className='text-5xl py-2 text-teal-500 font-medium md:text-6xl'>Cyril Delteil</h2>
         <h3 className='text-2xl py-2 md:text-3xl text-slate-800 dark:text-slate-400'>
           Developper Javascript
         </h3>

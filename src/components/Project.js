@@ -7,7 +7,16 @@ import kanap from '../images/kanap.jpg'
 import hottakes from '../images/hottakes.jpg'
 import groupomania from '../images/groupomania.jpg'
 
-// import css from '../images/css.svg'
+import html from '../images/html.svg'
+import css from '../images/css.svg'
+import sass from '../images/sass.svg'
+import seo from '../images/seo.svg'
+import js from '../images/js.svg'
+import api from '../images/api.svg'
+import angular from '../images/angular.svg'
+import mongo from '../images/mongo.svg'
+import react from '../images/react.svg'
+import node from '../images/node.svg'
 
 // import node from '../images/node.svg'
 // ;<img src={node} alt='node' />
@@ -38,7 +47,7 @@ const Project = () => {
         </p>
       </div>
 
-      <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
+      <div className='flex flex-col-reverse gap-10 py-10 lg:flex-row lg:flex-wrap'>
         <div className='basis-1/3 flex-1'>
           <img
             src={booki}
@@ -46,8 +55,20 @@ const Project = () => {
             width={'100%'}
             height={'100%'}
             layout='responsive'
-            alt='project'
+            alt='booki'
           />
+          <div className=' flex justify-between w-8 py-4 gap-1'>
+            <img src={html} alt='html'></img>
+            <img src={css} alt='html'></img>
+
+            {/* <a href='/github'>
+            <button
+              type='button'
+              className='px-6 py-1 text-white rounded shadow-md bg-gradient-to-r from-blue-500 to-teal-500'>
+              GITHUB
+            </button>
+          </a> */}
+          </div>
         </div>
 
         <div className='basis-1/3 flex-1'>
@@ -57,8 +78,21 @@ const Project = () => {
             width={'100%'}
             height={'100%'}
             layout='responsive'
-            alt='project'
+            alt='ohmyfood'
           />
+          <div className=' flex justify-between w-8 py-4 gap-1'>
+            <img src={html} alt='html'></img>
+            <img src={css} alt='html'></img>
+            <img src={sass} alt='html'></img>
+
+            {/* <a href='/github'>
+            <button
+              type='button'
+              className='px-6 py-1 text-white rounded shadow-md bg-gradient-to-r from-blue-500 to-teal-500'>
+              GITHUB
+            </button>
+          </a> */}
+          </div>
         </div>
 
         <div className='basis-1/3 flex-1'>
@@ -70,6 +104,20 @@ const Project = () => {
             layout='responsive'
             alt='project'
           />
+          <div className=' flex justify-between w-8 py-4 gap-1'>
+            <img src={html} alt='html'></img>
+            <img src={css} alt='html'></img>
+            <img src={sass} alt='html'></img>
+            <img src={seo} alt='html'></img>
+
+            {/* <a href='/github'>
+            <button
+              type='button'
+              className='px-6 py-1 text-white rounded shadow-md bg-gradient-to-r from-blue-500 to-teal-500'>
+              GITHUB
+            </button>
+          </a> */}
+          </div>
         </div>
 
         <div className='basis-1/3 flex-1'>
@@ -81,6 +129,20 @@ const Project = () => {
             layout='responsive'
             alt='project'
           />
+          <div className=' flex justify-between w-8 py-4 gap-1'>
+            <img src={html} alt='html'></img>
+            <img src={css} alt='html'></img>
+            <img src={js} alt='html'></img>
+            <img src={api} alt='html'></img>
+
+            {/* <a href='/github'>
+            <button
+              type='button'
+              className='px-6 py-1 text-white rounded shadow-md bg-gradient-to-r from-blue-500 to-teal-500'>
+              GITHUB
+            </button>
+          </a> */}
+          </div>
         </div>
 
         <div className='basis-1/3 flex-1'>
@@ -92,6 +154,23 @@ const Project = () => {
             layout='responsive'
             alt='project'
           />
+          <div className=' flex justify-between w-8 py-4 gap-1'>
+            <img src={html} alt='html'></img>
+            <img src={css} alt='html'></img>
+            <img src={js} alt='html'></img>
+            <img src={api} alt='html'></img>
+            <img src={angular} alt='html'></img>
+            <img src={node} alt='html'></img>
+            <img src={mongo} alt='html'></img>
+
+            {/* <a href='/github'>
+            <button
+              type='button'
+              className='px-6 py-1 text-white rounded shadow-md bg-gradient-to-r from-blue-500 to-teal-500'>
+              GITHUB
+            </button>
+          </a> */}
+          </div>
         </div>
 
         <div className='basis-1/3 flex-1'>
@@ -103,6 +182,23 @@ const Project = () => {
             layout='responsive'
             alt='project'
           />
+          <div className=' flex justify-between w-8 py-4 gap-1'>
+            <img src={html} alt='html'></img>
+            <img src={css} alt='html'></img>
+            <img src={js} alt='html'></img>
+            <img src={api} alt='html'></img>
+            <img src={react} alt='html'></img>
+            <img src={node} alt='html'></img>
+            <img src={mongo} alt='html'></img>
+
+            {/* <a href='/github'>
+            <button
+              type='button'
+              className='px-6 py-1 text-white rounded shadow-md bg-gradient-to-r from-blue-500 to-teal-500'>
+              GITHUB
+            </button>
+          </a> */}
+          </div>
         </div>
       </div>
     </section>

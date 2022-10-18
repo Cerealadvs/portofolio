@@ -19,6 +19,7 @@ const Services = () => {
           I offer from a wide range of services, including programming and teatching.
         </p>
       </div>
+
       <div className='lg:flex gap-10'>
         <div className='text-center shadow-lg p-10 rounded-xl my-10'>
           <img src={design} width={100} height={100} alt='schema' />
