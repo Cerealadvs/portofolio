@@ -18,9 +18,6 @@ import mongo from '../images/mongo.svg'
 import react from '../images/react.svg'
 import node from '../images/node.svg'
 
-// import node from '../images/node.svg'
-// ;<img src={node} alt='node' />
-
 const Project = () => {
   return (
     <section>
@@ -64,7 +61,7 @@ const Project = () => {
               <img src={css} alt='html'></img>
             </div>
 
-            <a href='/github'>
+            <a href='https://github.com/Cerealadvs/Booki'>
               <button
                 type='button'
                 className='px-6 my-4 py-1 text-white rounded shadow-md bg-gradient-to-r from-blue-500 to-teal-500'>
@@ -90,7 +87,7 @@ const Project = () => {
               <img src={sass} alt='sass'></img>
             </div>
 
-            <a href='/github'>
+            <a href='https://github.com/Cerealadvs/OhMyFood'>
               <button
                 type='button'
                 className='px-6 my-4 py-1 text-white rounded shadow-md bg-gradient-to-r from-blue-500 to-teal-500'>
@@ -117,7 +114,7 @@ const Project = () => {
               <img src={seo} alt='seo'></img>
             </div>
 
-            <a href='/github'>
+            <a href='https://github.com/Cerealadvs/LaPanthere'>
               <button
                 type='button'
                 className='px-6 my-4 py-1 text-white rounded shadow-md bg-gradient-to-r from-blue-500 to-teal-500'>
@@ -144,7 +141,7 @@ const Project = () => {
               <img src={api} alt='api'></img>
             </div>
 
-            <a href='/github'>
+            <a href='https://github.com/Cerealadvs/Kanap'>
               <button
                 type='button'
                 className='px-6 my-4 py-1 text-white rounded shadow-md bg-gradient-to-r from-blue-500 to-teal-500'>
@@ -174,7 +171,7 @@ const Project = () => {
               <img src={mongo} alt='mongo'></img>
             </div>
 
-            <a href='/github'>
+            <a href='https://github.com/Cerealadvs/Piiquante'>
               <button
                 type='button'
                 className='px-6 my-4 py-1 text-white rounded shadow-md bg-gradient-to-r from-blue-500 to-teal-500'>
@@ -204,7 +201,7 @@ const Project = () => {
               <img src={mongo} alt='mongo'></img>
             </div>
 
-            <a href='/github'>
+            <a href='https://github.com/Cerealadvs/Groupomania'>
               <button
                 type='button'
                 className='px-6 my-4 py-1 text-white rounded shadow-md bg-gradient-to-r from-blue-500 to-teal-500'>
