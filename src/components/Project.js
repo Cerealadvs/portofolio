@@ -6,6 +6,7 @@ import lapanthere from '../images/lapanthere.jpg'
 import kanap from '../images/kanap.jpg'
 import hottakes from '../images/hottakes.jpg'
 import groupomania from '../images/groupomania.jpg'
+// import portfolio from '../images/portfolio.jpg'
 
 import html from '../images/html.svg'
 import css from '../images/css.svg'
@@ -17,6 +18,8 @@ import angular from '../images/angular.svg'
 import mongo from '../images/mongo.svg'
 import react from '../images/react.svg'
 import node from '../images/node.svg'
+// import tailwind from '../images/tailwind.svg'
+import express from '../images/express.svg'
 
 const Project = () => {
   return (
@@ -168,13 +171,14 @@ const Project = () => {
           />
           <div className=' flex justify-between'>
             <div className='flex w-8 py-4 gap-1'>
+              <img src={mongo} alt='mongo'></img>
+              <img src={express} alt='node'></img>
+              <img src={angular} alt='angular'></img>
+              <img src={node} alt='node'></img>
+              <img src={api} alt='api'></img>
               <img src={html} alt='html'></img>
               <img src={css} alt='css'></img>
               <img src={js} alt='js'></img>
-              <img src={api} alt='api'></img>
-              <img src={angular} alt='angular'></img>
-              <img src={node} alt='node'></img>
-              <img src={mongo} alt='mongo'></img>
             </div>
 
             <a href='https://github.com/Cerealadvs/Piiquante'>
@@ -198,13 +202,14 @@ const Project = () => {
           />
           <div className=' flex justify-between'>
             <div className='flex w-8 py-4 gap-1'>
+              <img src={mongo} alt='mongo'></img>
+              <img src={express} alt='react'></img>
+              <img src={react} alt='react'></img>
+              <img src={node} alt='node'></img>
+              <img src={api} alt='api'></img>
               <img src={html} alt='html'></img>
               <img src={css} alt='css'></img>
               <img src={js} alt='js'></img>
-              <img src={api} alt='api'></img>
-              <img src={react} alt='react'></img>
-              <img src={node} alt='node'></img>
-              <img src={mongo} alt='mongo'></img>
             </div>
 
             <a href='https://github.com/Cerealadvs/Groupomania'>
@@ -216,6 +221,34 @@ const Project = () => {
             </a>
           </div>
         </div>
+
+        {/* <div className='basis-1/3 flex-1'>
+          <img
+            src={portfolio}
+            className='rounded-lg object-cover'
+            width={'100%'}
+            height={'100%'}
+            layout='responsive'
+            alt='portfolio'
+          />
+          <div className=' flex justify-between'>
+            <div className='flex w-8 py-4 gap-1'>
+              <img src={react} alt='react'></img>
+              <img src={tailwind} alt='tailwind'></img>
+              <img src={html} alt='html'></img>
+              <img src={css} alt='css'></img>
+              <img src={js} alt='js'></img>
+            </div>
+
+            <a href='https://github.com/Cerealadvs/Piiquante'>
+              <button
+                type='button'
+                className='px-6 my-4 py-1 text-white rounded shadow-md bg-gradient-to-r from-blue-500 to-teal-500'>
+                GITHUB
+              </button>
+            </a>
+          </div>
+        </div> */}
       </div>
     </section>
   )
