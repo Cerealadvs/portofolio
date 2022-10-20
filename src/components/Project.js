@@ -46,14 +46,16 @@ const Project = () => {
 
       <div className='flex flex-col-reverse gap-10 py-10 lg:flex-row-reverse lg:flex-wrap-reverse'>
         <div className='basis-1/3 flex-1'>
-          <img
-            src={booki}
-            className='rounded-lg object-cover'
-            width={'100%'}
-            height={'100%'}
-            layout='responsive'
-            alt='booki'
-          />
+          <a href='https://cerealadvs.github.io/Booki/'>
+            <img
+              src={booki}
+              className='rounded-lg object-cover'
+              width={'100%'}
+              height={'100%'}
+              layout='responsive'
+              alt='booki'
+            />
+          </a>
 
           <div className='flex justify-between'>
             <div className=' flex w-8 py-4 gap-1'>
@@ -72,14 +74,16 @@ const Project = () => {
         </div>
 
         <div className='basis-1/3 flex-1'>
-          <img
-            src={ohmyfood}
-            className='rounded-lg object-cover'
-            width={'100%'}
-            height={'100%'}
-            layout='responsive'
-            alt='ohmyfood'
-          />
+          <a href='https://cerealadvs.github.io/OhMyFood/index.html'>
+            <img
+              src={ohmyfood}
+              className='rounded-lg object-cover'
+              width={'100%'}
+              height={'100%'}
+              layout='responsive'
+              alt='ohmyfood'
+            />
+          </a>
           <div className=' flex justify-between'>
             <div className='flex w-8 py-4 gap-1'>
               <img src={html} alt='html'></img>
@@ -98,14 +102,16 @@ const Project = () => {
         </div>
 
         <div className='basis-1/3 flex-1'>
-          <img
-            src={lapanthere}
-            className='rounded-lg object-cover'
-            width={'100%'}
-            height={'100%'}
-            layout='responsive'
-            alt='lapanthere'
-          />
+          <a href='https://cerealadvs.github.io/LaPanthere/'>
+            <img
+              src={lapanthere}
+              className='rounded-lg object-cover'
+              width={'100%'}
+              height={'100%'}
+              layout='responsive'
+              alt='lapanthere'
+            />
+          </a>
           <div className=' flex justify-between'>
             <div className='flex w-8 py-4 gap-1'>
               <img src={html} alt='html'></img>
