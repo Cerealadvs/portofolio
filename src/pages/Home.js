@@ -3,10 +3,11 @@ import Navbar from '../components/Navbar'
 
 import Presentation from '../components/Presentation'
 import Project from '../components/Project'
-import Services from '../components/Services'
-
-import Test from '../components/Test'
 import UnderConstruction from '../components/UnderConstruction'
+import AboutMe from '../components/AboutMe'
+import Footer from '../components/Footer'
+
+// import Test from '../components/Test'
 
 const Home = () => {
   return (
@@ -14,9 +15,10 @@ const Home = () => {
       <UnderConstruction />
       <Navbar />
       <Presentation />
-      <Services />
       <Project />
-      <Test />
+      <AboutMe />
+      <Footer />
+      {/* <Test /> */}
     </main>
   )
 }

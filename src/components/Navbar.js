@@ -43,7 +43,7 @@ const Navbar = () => {
             {/* menu téléphone */}
             <ul className='flex flex-col items-center justify-between min-h-[250px]'>
               <li className='font-burtons text-slate-800 hover:underline decoration-4 decoration-sky-500'>
-                <a href='/about'>À propos</a>
+                <a href='#AboutMe'>À propos</a>
               </li>
               <li className='font-burtons text-slate-800 hover:underline decoration-4 decoration-green-500'>
                 <a href='#Project'> Mes projets</a>
@@ -74,10 +74,11 @@ const Navbar = () => {
 
         {/* menu desktop */}
         <ul className='hidden items-center space-x-8 md:flex'>
-          {/* TODO: créer un a vers une page de présentation plus détaillée. */}
-          <li className='font-burtons text-slate-800 dark:text-slate-400 hover:underline decoration-4 decoration-sky-500'>
-            À propos
-          </li>
+          <a href='#AboutMe'>
+            <li className='font-burtons text-slate-800 dark:text-slate-400 hover:underline decoration-4 decoration-sky-500'>
+              À propos
+            </li>
+          </a>
           <li>
             <a
               href='#Project'
