@@ -43,10 +43,14 @@ const Navbar = () => {
             {/* menu téléphone */}
             <ul className='flex flex-col items-center justify-between min-h-[250px]'>
               <li className='font-burtons text-slate-800 hover:underline decoration-4 decoration-sky-500'>
-                <a href='#AboutMe'>À propos</a>
+                <a href='#AboutMe' onClick={() => setIsNavOpen(false)}>
+                  À propos
+                </a>
               </li>
               <li className='font-burtons text-slate-800 hover:underline decoration-4 decoration-green-500'>
-                <a href='#Project'> Mes projets</a>
+                <a href='#Project' onClick={() => setIsNavOpen(false)}>
+                  Mes projets
+                </a>
               </li>
               <li className='font-burtons text-slate-800 hover:underline decoration-4 decoration-yellow-500'>
                 <a href='https://github.com/Cerealadvs' className='flex '>

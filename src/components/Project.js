@@ -240,7 +240,7 @@ const Project = () => {
               <img src={js} alt='js'></img>
             </div>
 
-            <a href='https://github.com/Cerealadvs/Piiquante'>
+            <a href='https://github.com/Cerealadvs/portofolio'>
               <button
                 type='button'
                 className='px-6 my-4 py-1 text-white rounded shadow-md bg-gradient-to-r from-blue-500 to-teal-500'>
