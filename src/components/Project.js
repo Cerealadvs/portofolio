@@ -52,7 +52,8 @@ const Project = () => {
           <a href='https://cerealadvs.github.io/Booki/'>
             <img
               src={booki}
-              className='rounded-lg object-cover'
+              className='rounded-lg object-cover shadow-lg
+              dark: shadow-slate-600'
               width={'100%'}
               height={'100%'}
               layout='responsive'
@@ -80,7 +81,8 @@ const Project = () => {
           <a href='https://cerealadvs.github.io/OhMyFood/index.html'>
             <img
               src={ohmyfood}
-              className='rounded-lg object-cover'
+              className='rounded-lg object-cover shadow-lg
+              dark: shadow-slate-600'
               width={'100%'}
               height={'100%'}
               layout='responsive'
@@ -108,7 +110,8 @@ const Project = () => {
           <a href='https://cerealadvs.github.io/LaPanthere/'>
             <img
               src={lapanthere}
-              className='rounded-lg object-cover'
+              className='rounded-lg object-cover shadow-lg
+              dark: shadow-slate-600'
               width={'100%'}
               height={'100%'}
               layout='responsive'
@@ -136,7 +139,8 @@ const Project = () => {
         <div className='basis-1/3 flex-1'>
           <img
             src={kanap}
-            className='rounded-lg object-cover'
+            className='rounded-lg object-cover shadow-lg
+            dark: shadow-slate-600'
             width={'100%'}
             height={'100%'}
             layout='responsive'
@@ -163,7 +167,8 @@ const Project = () => {
         <div className='basis-1/3 flex-1'>
           <img
             src={hottakes}
-            className='rounded-lg object-cover'
+            className='rounded-lg object-cover shadow-lg
+            dark: shadow-slate-600'
             width={'100%'}
             height={'100%'}
             layout='responsive'
@@ -194,7 +199,8 @@ const Project = () => {
         <div className='basis-1/3 flex-1'>
           <img
             src={groupomania}
-            className='rounded-lg object-cover'
+            className='rounded-lg object-cover shadow-lg
+            dark: shadow-slate-600'
             width={'100%'}
             height={'100%'}
             layout='responsive'
@@ -225,7 +231,8 @@ const Project = () => {
         <div className='basis-1/3 flex-1'>
           <img
             src={portfolio}
-            className='rounded-lg object-cover'
+            className='rounded-lg object-cover shadow-lg
+            dark: shadow-slate-600'
             width={'100%'}
             height={'100%'}
             layout='responsive'
