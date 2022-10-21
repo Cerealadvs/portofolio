@@ -6,7 +6,7 @@ import lapanthere from '../images/lapanthere.jpg'
 import kanap from '../images/kanap.jpg'
 import hottakes from '../images/hottakes.jpg'
 import groupomania from '../images/groupomania.jpg'
-// import portfolio from '../images/portfolio.jpg'
+import portfolio from '../images/portfolio.jpg'
 
 import html from '../images/html.svg'
 import css from '../images/css.svg'
@@ -18,7 +18,7 @@ import angular from '../images/angular.svg'
 import mongo from '../images/mongo.svg'
 import react from '../images/react.svg'
 import node from '../images/node.svg'
-// import tailwind from '../images/tailwind.svg'
+import tailwind from '../images/tailwind.svg'
 import express from '../images/express.svg'
 
 const Project = () => {
@@ -222,7 +222,7 @@ const Project = () => {
           </div>
         </div>
 
-        {/* <div className='basis-1/3 flex-1'>
+        <div className='basis-1/3 flex-1'>
           <img
             src={portfolio}
             className='rounded-lg object-cover'
@@ -248,7 +248,7 @@ const Project = () => {
               </button>
             </a>
           </div>
-        </div> */}
+        </div>
       </div>
     </section>
   )
